@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc95f91e-71ee-4824-b702-9b4d63f9a86a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1hr0ET9c0C48YIDYtZDIx1ETM3g" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Medical" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img\icon" />
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img\content" />
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img" />
+      <recent name="C:\Users\Safiolla\PhpstormProjects\шаблон\img\icon" />
+      <recent name="C:\Users\Safiolla\PhpstormProjects\шаблон\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc95f91e-71ee-4824-b702-9b4d63f9a86a" name="Default Changelist" comment="" />
+      <created>1600753791612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600753791612</updated>
+      <workItem from="1600753792671" duration="15566000" />
+      <workItem from="1600848163516" duration="25084000" />
+      <workItem from="1600922116045" duration="9617000" />
+      <workItem from="1601268021848" duration="10997000" />
+      <workItem from="1601285257269" duration="189000" />
+      <workItem from="1601286127757" duration="3061000" />
+      <workItem from="1601289398215" duration="23643000" />
+      <workItem from="1601441690293" duration="21959000" />
+      <workItem from="1601528339521" duration="20275000" />
+      <workItem from="1601613392347" duration="28163000" />
+      <workItem from="1601916899456" duration="1080000" />
+      <workItem from="1601918275749" duration="33000" />
+      <workItem from="1601918381287" duration="1773000" />
+      <workItem from="1601920192754" duration="1618000" />
+      <workItem from="1601922354061" duration="1752000" />
+      <workItem from="1601924159924" duration="1813000" />
+      <workItem from="1601926024915" duration="1130000" />
+      <workItem from="1601931281020" duration="1787000" />
+      <workItem from="1601933197949" duration="1780000" />
+      <workItem from="1601935006639" duration="220000" />
+      <workItem from="1601969980279" duration="1888000" />
+      <workItem from="1601971905660" duration="1795000" />
+      <workItem from="1601973763248" duration="1759000" />
+      <workItem from="1601975635407" duration="384000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1600756740831">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1600756740831" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600753830857">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600753830857" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601976027286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601976027286" />
+    <state x="0" y="0" width="587" height="728" key="find.popup" timestamp="1600754527982">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600754527982" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601637408677">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601637408677" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>1610</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
