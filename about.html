@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="img/favicon.svg">
+
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header id="header" class="about-hover">
+    <div class="container">
+        <div class="header">
+            <div class="header-top-wrapper">
+                <div class="header-xs d-none">
+                    <a class="logo-xs" href="index.html">
+                        <img src="img/logo.svg">
+                    </a>
+                    <!--<div class="weather-xs">
+                        <img src="img/icon/weather-shine.svg">
+                        <p>+29°</p>
+                        <div class="weather-city-xs">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Алматыда</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Алматыда</a>
+                                <a class="dropdown-item" href="#">Алматыда</a>
+                                <a class="dropdown-item" href="#">Алматыда</a>
+                                <a class="dropdown-item" href="#">Алматыда</a>
+                                <a class="dropdown-item" href="#">Алматыда</a>
+                                <a class="dropdown-item" href="#">Алматыда</a>
+                                <a class="dropdown-item" href="#">Алматыда</a>
+                                <a class="dropdown-item" href="#">Алматыда</a>
+                                <a class="dropdown-item" href="#">Алматыда</a>
+                                <a class="dropdown-item" href="#">Алматыда</a>
+                            </div>
+                        </div>
+                    </div>-->
+                    <div class="search-xs">
+                        <button class="search-btn">
+                            <img src="img/icon/loupe.svg">
+                        </button>
+                        <input type="text" placeholder="Іздеу">
+                    </div>
+                    <a class="profile-xs" href="#">
+                        <img src="img/content/profile-img.png">
+                    </a>
+                    <a class="menu-close-btn" href="#">
+                        <img src="img/icon/burger-btn-close.svg">
+                    </a>
+                </div>
+                <div class="header-top">
+                    <ul class="nav main-nav">
+                        <li class="nav-item">
+                            <a class="nav-link link-politics" href="#">Саясат</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-economy" href="#">Экономика</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-weekend" href="#">Weekend</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-sport" href="#">Спорт</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-society" href="#">Қоғам</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-world" href="#">Әлем жаңалықтары</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-law" href="#">Құқық</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-archive" href="#">Мұрағат</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-covid" href="#">COVID-19</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link other-news" href="#">
+                                <img src="img/icon/menu.svg">
+                                Басқа бөлімдер
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="nav lang">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Ққ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ру</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">En</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Qq</a>
+                        </li>
+                    </ul>
+                    <a class="new-note-xs d-none" href="#">
+                        <img src="img/icon/pen-edit.svg">
+                    </a>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <a class="logo" href="index.html">
+                    <img src="img/logo.svg">
+                </a>
+                <div class="weather">
+                    <img src="img/icon/weather-shine.svg">
+                    <p>+29°</p>
+                    <div class="weather-city">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Алматыда</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="exchange-rates">
+                    <div class="usd">
+                        <img class="currency" src="img/icon/dollar.svg">
+                        <p>420,76</p>
+                        <img class="exchange-cursor" src="img/icon/cursor-up.svg">
+                    </div>
+                    <div class="euro">
+                        <img class="currency" src="img/icon/euro.svg">
+                        <p>420,76</p>
+                        <img class="exchange-cursor" src="img/icon/cursor-down.svg">
+                    </div>
+                </div>
+                <div class="search-wrapper">
+                    <div class="search">
+                        <button class="search-btn">
+                            <img src="img/icon/loupe.svg">
+                        </button>
+                        <input type="text" placeholder="Іздеу">
+                    </div>
+                </div>
+                <a class="new-note" href="#">
+                    <img src="img/icon/pen-edit.svg">
+                    <p>Жаңа жазба</p>
+                </a>
+                <a class="profile" href="#">
+                    <img src="img/icon/profile-icon.svg">
+                    <p>Профиль</p>
+                </a>
+                <a class="menu-open-btn d-none" href="#">
+                    <img src="img/icon/burger-btn.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="about">
+    <div class="container">
+        <div class="about">
+            <div class="about-title">
+                <h1>Біз туралы</h1>
+            </div>
+            <div class="about-title-after">
+                <img src="img/buginnen-basta.svg">
+                <p class="d-none">Buginnen basta</p>
+            </div>
+            <div class="about-body">
+                <h6 class="about-title-mini">Неге бүгіннен бастау керек?</h6>
+                <p>Мақсатқа жету үшін, арманды орындау үшін бүгінгі істі ертеңге қалдыруға болмайды. Buginnen basta – біздің ұран!</p>
+                <p><a class="about-link" href="#">Bugin.kz</a> – ақпараттық және танымдық бағыттағы медиаплатформа. Сайттың негізгі мақсаты – еркін журналистік ортаны құру және мәдениетті дамыту. </p>
+                <h6 class="about-title-mini">Тәуелсіз авторлар платформасы</h6>
+                <p>Кез келген қаламы қарымды журналист немесе блогер, автор жазуға әуес. ХХІ ғасыр – ақпарат пен тың идеяларды ұсынатын және сол арқылы материалдық мүмкіндігін қалыптастыратын дәуір.</p>
+                <p>Bugin.kz сайтына автор ретінде тіркеліп, журналистік материалды (зерттеу, сұқбат, танымдық, т.б) үйде отырып қана жазып, "Bugin" көрсеткішін жинай отырып қаламақы алуға болады. Қаламақы арнайы төлеу жүйесімен емес, автордың өзінің еңбегін бағалауы және халықтың бағасын беруі арқылы жүзеге асады.</p>
+                <div class="author-item-wrapper">
+                                <div class="author-item">
+                                    <a href="#">
+                                        <div class="author-img unread">
+                                            <img  src="img/content/author-img.png">
+                                        </div>
+                                    </a>
+                                    <div class="author-name">
+                                        <p>Асхат Қасенғали</p>
+                                    </div>
+                                </div>
+                                <div class="author-item">
+                                    <a href="#">
+                                        <div class="author-img unread">
+                                            <img  src="img/content/author-img.png">
+                                        </div>
+                                    </a>
+                                    <div class="author-name">
+                                        <p>Асхат Қасенғали</p>
+                                    </div>
+                                </div>
+                                <div class="author-item">
+                                    <a href="#">
+                                        <div class="author-img unread">
+                                            <img  src="img/content/author-img.png">
+                                        </div>
+                                    </a>
+                                    <div class="author-name">
+                                        <p>Асхат Қасенғали</p>
+                                    </div>
+                                </div>
+                                <div class="author-item">
+                                    <a href="#">
+                                        <div class="author-img">
+                                            <img src="img/content/author-img2.png">
+                                        </div>
+                                    </a>
+                                    <div class="author-name">
+                                        <p>Күлтегін Аспанұлы</p>
+                                    </div>
+                                </div>
+                                <div class="author-item">
+                                    <a href="#">
+                                        <div class="author-img">
+                                            <img src="img/content/author-img2.png">
+                                        </div>
+                                    </a>
+                                    <div class="author-name">
+                                        <p>Күлтегін Аспанұлы</p>
+                                    </div>
+                                </div>
+                                <div class="author-item">
+                                    <a href="#">
+                                        <div class="author-img">
+                                            <img src="img/content/author-img2.png">
+                                        </div>
+                                    </a>
+                                    <div class="author-name">
+                                        <p>Күлтегін Аспанұлы</p>
+                                    </div>
+                                </div>
+                                <div class="author-item">
+                                    <a href="#">
+                                        <div class="author-img">
+                                            <img src="img/content/author-img2.png">
+                                        </div>
+                                    </a>
+                                    <div class="author-name">
+                                        <p>Күлтегін Аспанұлы</p>
+                                    </div>
+                                </div>
+                                <div class="author-add">
+                                    <a href="#">
+                                        <img src="img/icon/plus.svg">
+                                    </a>
+                                    <div class="author-name">
+                                        <p>Авторларға қосылу</p>
+                                    </div>
+                                </div>
+                            </div>
+                <h6 class="about-title-mini">Мәдениетті дамыту</h6>
+                <p>Қазақ әдебиеті – қазақ мәдениетін жасап отырған негізі бағыттың бірі. Еліміздегі ақын-жазушылардың шығармашылық қабілеті мен қазақ әдебиетін дамыту мақсатында сайт үлкен мүкіндік ұсынады. </p>
+                <p>Ақын мен жазушы сайтқа автор ретінде тіркеліп, өлеңдерін және прозаларын бере отырып қаламақы ала алады.</p>
+                <p>Еліміздің әр түкпірінде күнделікті жаңалықтар мен ақпараттардың ағыны ағылып жатыр. Республикамыздағы сайттардың бәрін қамтуға мүмкіндігі шектеулі. Біз осы шектеулі мүмкіндікті жойып, әрбір жазуға қабілетті журналистерді, блогерлерді  және ақын-жазушыларды сайтқа автор ретінде тіркелуге шақырамыз!</p>
+                <h6 class="about-title-mini">Рухани жаңғыру жолындағы жетістік </h6>
+                <p>Дамыған заманауи технологиялардың арқасында шығармашылық қабілеті бар адам барынша еркін және көсіліп жазуға тырысу керек. Біз дәл осы еркіндікті ұсынып қана қоймай, материалдық қажеттілікті де  беруге дайынбыз!</p>
+                <p>Бүгінгі басты жаңалықты сен бірінші болып бер! Бүгінгі ең өзекті мәселені сен бірінші болып жаз! Бүгінгі руханияттың отын сен бірінші болып жақ!</p>
+                <p>Дайын болсаң, бүгіннен баста!</p>
+            </div>
+            <div class="about-bottom">
+                <a href="#">Buginnen Basta © Bugin Media</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="about-hover">
+    <div class="container">
+        <div class="footer">
+            <div class="footer-top">
+                <ul class="nav footer-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Саясат</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Экономика</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Weekend</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Спорт</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Қоғам</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Әлем жаңалықтары</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Құқық</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Мұрағат</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">COVID-19</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Құқық</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Мұрағат</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Спорт</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Саясат</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Экономика</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-main">
+                <a class="footer-logo" href="#">
+                    <img src="img/footer-logo.svg">
+                </a>
+                <span>|</span>
+                <div class="copyright">
+                    <p><span>© 2012-2019 «bugin.kz»</span> — Материалды көшіріп басқанда Bugin.kz сайтына гиперсілтеме міндетті түрде қойылуы тиіс. Авторлық құқықты сақтаңыз!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<section id="after-footer" class="about-hover">
+    <div class="container">
+        <div class="after-footer">
+            <ul class="nav after-footer-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Жоба туралы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Редакциялық саясат</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Жарнама</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Көмек</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Жұмыс</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Қолдану ережелері</a>
+                </li>
+            </ul>
+            <div class="mobile-app">
+                <p>Қосымшаны жүктеп алыңыз</p>
+                <img src="img/icon/cursor-right.svg">
+                <a class="app-icon apple" href="#">
+                    <img src="img/icon/apple.svg">
+                </a>
+                <a class="app-icon" href="#">
+                    <img src="img/icon/android.svg">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/script.js"></script>
+
+<script>
+    $('.footer-nav').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 12,
+        slidesToScroll: 1,
+        variableWidth: true,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 6,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+        ]
+    });
+</script>
+</body>
+</html>

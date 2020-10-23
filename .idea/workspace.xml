@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc95f91e-71ee-4824-b702-9b4d63f9a86a" name="Default Changelist" comment="" />
+    <list default="true" id="bc95f91e-71ee-4824-b702-9b4d63f9a86a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/author.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/Animated-Border-Thumbnail.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/css/style-not-required.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/css/ui-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/how-to-use.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/border-animate/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Comfortaa/Comfortaa-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/Playfair-Display/PlayfairDisplay-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/b-yellow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/content/author-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/content/data-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/content/user-ava.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/+.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/bg-change.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/circle-cursor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/load.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/logout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/pen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/publish-dash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/publish-tool1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/publish-tool2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/publish-tool3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/publish-tool4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/publish-tool5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/ready.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/user-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/user-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon/user-dash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/publish-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pre_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publication.html" beforeDir="false" afterPath="$PROJECT_DIR$/publication.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,27 +58,39 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hr0ET9c0C48YIDYtZDIx1ETM3g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Medical" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img\icon" />
-      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img\content" />
-      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img" />
-      <recent name="C:\Users\Safiolla\PhpstormProjects\шаблон\img\icon" />
-      <recent name="C:\Users\Safiolla\PhpstormProjects\шаблон\img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img" />
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img\icon" />
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\fonts\Comfortaa" />
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\fonts\Playfair-Display" />
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img\content" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,6 +125,8 @@
       <workItem from="1601971905660" duration="1795000" />
       <workItem from="1601973763248" duration="1759000" />
       <workItem from="1601975635407" duration="384000" />
+      <workItem from="1602838901929" duration="9188000" />
+      <workItem from="1603081667752" duration="110681000" />
     </task>
     <servers />
   </component>
@@ -76,30 +138,53 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1600756740831" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600753830857">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603102917036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1600753830857" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1601976027286">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603102917036" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603257843582">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601976027286" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603257843582" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603260905459">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603260905459" />
     <state x="0" y="0" width="587" height="728" key="find.popup" timestamp="1600754527982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600754527982" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1601637408677">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603444211321">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1601637408677" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603444211321" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/profile.html</url>
+          <line>782</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>1610</line>
-          <option name="timeStamp" value="1" />
+          <line>2012</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/index.html</url>
+          <line>2034</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/category.html</url>
+          <line>830</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

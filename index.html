@@ -27,7 +27,7 @@
                         <a class="logo-xs" href="index.html">
                             <img src="img/logo.svg">
                         </a>
-                        <div class="weather-xs">
+                        <!--<div class="weather-xs">
                             <img src="img/icon/weather-shine.svg">
                             <p>+29°</p>
                             <div class="weather-city-xs">
@@ -45,7 +45,7 @@
                                     <a class="dropdown-item" href="#">Алматыда</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="search-xs">
                             <button class="search-btn">
                                 <img src="img/icon/loupe.svg">
@@ -165,6 +165,65 @@
                         <img src="img/icon/profile-icon.svg">
                         <p>Профиль</p>
                     </a>
+                    <div class="login">
+                        <form action="#">
+                            <div class="authorize-close-wrapper d-none">
+                                <a class="authorize-close" href="#">
+                                    <svg width="15" height="15" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 11L11 1M1 1L11 11" stroke="#8D8F9B"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="for-name">
+                                <p>E-mail</p>
+                                <input type="email" placeholder="Arman@mail.ru">
+                            </div>
+                            <input type="password" placeholder="Пароль">
+                            <div class="pwd-save">
+                                <label class="pwd-switch">
+                                    <input type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                                <p>Парольді сақтау</p>
+                            </div>
+                            <div class="login-bottom">
+                                <a class="login-btn" href="#">Кіру</a>
+                                <a class="registration-switch" href="#">Тіркелу</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="registration">
+                        <form action="#">
+                            <div class="authorize-close-wrapper d-none">
+                                <a class="authorize-close" href="#">
+                                    <svg width="15" height="15" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 11L11 1M1 1L11 11" stroke="#8D8F9B"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="for-name">
+                                <p>Атыңыз</p>
+                                <input type="text" placeholder="Elnoyle">
+                            </div>
+                            <input type="email" placeholder="E-mail">
+                            <input type="password" placeholder="Пароль">
+                            <div class="registration-img">
+                                <input type="file">
+                                <div class="registration-img-load">
+                                    <p>Фотоны жүктеу</p>
+                                    <img src="img/icon/load.svg">
+                                </div>
+                            </div>
+                            <div class="registration-img-info">Максимум 1мб</div>
+                            <div class="registration-bottom">
+                                <a class="registration-btn" href="#">Тіркелу</a>
+                                <a class="back-btn" href="#">
+                                    <img src="img/icon/cursor-left.svg">
+                                    <p>Артқа</p>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
                     <a class="menu-open-btn d-none" href="#">
                         <img src="img/icon/burger-btn.svg">
                     </a>
@@ -1833,6 +1892,8 @@
         </div>
     </section>
 
+    <div class="overlay"></div>
+
     <footer id="footer">
         <div class="container">
             <div class="footer">
@@ -1931,6 +1992,16 @@
             </div>
         </div>
     </section>
+
+    <div class="dispute-notice d-none">
+        <a class="dispute-icon" href="#">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.60543 15H8.00043C11.8662 15 15.0004 11.8657 15.0004 8C15.0004 4.13425 11.8662 1 8.00043 1C4.13468 1 1.00043 4.13425 1.00043 8C1.00043 9.64237 1.57006 11.1491 2.51681 12.3426M4.73143 15H1.80981C1.08968 15 0.729183 14.1294 1.23843 13.621L2.19218 12.6672M2.51418 12.34L2.19043 12.6637" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+        <div class="notice-number">2</div>
+    </div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -2066,6 +2137,49 @@
             }
         });
     </script>
+    <script>
+        $('.profile').mouseenter(function (){
+            $('.login').addClass('show');
+            $('.overlay').addClass('overlay-show');
+        })
 
+        $('.profile').click(function (){
+            $('.login').addClass('show');
+            $('.overlay').addClass('overlay-show');
+        })
+
+        $('.authorize-close').click(function (){
+            $('.login').removeClass('show');
+            $('.registration').removeClass('show');
+            $('.overlay').removeClass('overlay-show');
+        })
+
+        $('.registration-switch').click(function (){
+            $('.login').removeClass('show');
+            $('.registration').addClass('show')
+        })
+
+        $('.back-btn').click(function (){
+            $('.registration').removeClass('show');
+            $('.login').addClass('show')
+            $('.overlay').addClass('overlay-show');
+        })
+
+        $(document).mouseup(function (e){
+            var div = $(".login");  //класс элемента вне которого клик
+            if (!div.is(e.target) && div.has(e.target).length === 0) {
+                div.removeClass('show');
+                $('.overlay').removeClass('overlay-show');
+            }
+        });
+
+        $(document).mouseup(function (e){
+            var div = $(".registration");  //класс элемента вне которого клик
+            if (!div.is(e.target) && div.has(e.target).length === 0) {
+                div.removeClass('show');
+            }
+        });
+
+    </script>
 </body>
 </html>
