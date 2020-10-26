@@ -415,7 +415,8 @@
                 <div class="author-item-wrapper">
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img unread">
+                            <div class="author-img-wrapper">
+                                <div class="author-img unvisited"></div>
                                 <img  src="img/content/author-img.png">
                             </div>
                         </a>
@@ -425,7 +426,8 @@
                     </div>
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img unread">
+                            <div class="author-img-wrapper">
+                                <div class="author-img unvisited"></div>
                                 <img  src="img/content/author-img.png">
                             </div>
                         </a>
@@ -435,7 +437,8 @@
                     </div>
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img unread">
+                            <div class="author-img-wrapper">
+                                <div class="author-img unvisited"></div>
                                 <img  src="img/content/author-img.png">
                             </div>
                         </a>
@@ -445,82 +448,90 @@
                     </div>
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img">
-                                <img src="img/content/author-img2.png">
+                            <div class="author-img-wrapper">
+                                <div class="author-img visited"></div>
+                                <img  src="img/content/author-img.png">
                             </div>
                         </a>
                         <div class="author-name">
-                            <p>Күлтегін Аспанұлы</p>
+                            <p>Асхат Қасенғали</p>
                         </div>
                     </div>
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img">
-                                <img src="img/content/author-img2.png">
+                            <div class="author-img-wrapper">
+                                <div class="author-img visited"></div>
+                                <img  src="img/content/author-img.png">
                             </div>
                         </a>
                         <div class="author-name">
-                            <p>Күлтегін Аспанұлы</p>
+                            <p>Асхат Қасенғали</p>
                         </div>
                     </div>
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img">
-                                <img src="img/content/author-img2.png">
+                            <div class="author-img-wrapper">
+                                <div class="author-img visited"></div>
+                                <img  src="img/content/author-img.png">
                             </div>
                         </a>
                         <div class="author-name">
-                            <p>Күлтегін Аспанұлы</p>
+                            <p>Асхат Қасенғали</p>
                         </div>
                     </div>
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img">
-                                <img src="img/content/author-img2.png">
+                            <div class="author-img-wrapper">
+                                <div class="author-img visited"></div>
+                                <img  src="img/content/author-img.png">
                             </div>
                         </a>
                         <div class="author-name">
-                            <p>Күлтегін Аспанұлы</p>
+                            <p>Асхат Қасенғали</p>
                         </div>
                     </div>
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img">
-                                <img src="img/content/author-img2.png">
+                            <div class="author-img-wrapper">
+                                <div class="author-img visited"></div>
+                                <img  src="img/content/author-img.png">
                             </div>
                         </a>
                         <div class="author-name">
-                            <p>Күлтегін Аспанұлы</p>
+                            <p>Асхат Қасенғали</p>
                         </div>
                     </div>
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img">
-                                <img src="img/content/author-img2.png">
+                            <div class="author-img-wrapper">
+                                <div class="author-img visited"></div>
+                                <img  src="img/content/author-img.png">
                             </div>
                         </a>
                         <div class="author-name">
-                            <p>Күлтегін Аспанұлы</p>
+                            <p>Асхат Қасенғали</p>
                         </div>
                     </div>
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img">
-                                <img src="img/content/author-img2.png">
+                            <div class="author-img-wrapper">
+                                <div class="author-img visited"></div>
+                                <img  src="img/content/author-img.png">
                             </div>
                         </a>
                         <div class="author-name">
-                            <p>Күлтегін Аспанұлы</p>
+                            <p>Асхат Қасенғали</p>
                         </div>
                     </div>
                     <div class="author-item">
                         <a href="#">
-                            <div class="author-img">
-                                <img src="img/content/author-img2.png">
+                            <div class="author-img-wrapper">
+                                <div class="author-img visited"></div>
+                                <img  src="img/content/author-img.png">
                             </div>
                         </a>
                         <div class="author-name">
-                            <p>Күлтегін Аспанұлы</p>
+                            <p>Асхат Қасенғали</p>
                         </div>
                     </div>
                     <div class="author-add">
@@ -2003,7 +2014,7 @@
     </div>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="slick/slick.min.js"></script>
@@ -2180,6 +2191,11 @@
             }
         });
 
+    </script>
+    <script>
+        $('.unvisited').click(function (){
+            $(this).addClass('spinning');
+        })
     </script>
 </body>
 </html>

@@ -2,53 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc95f91e-71ee-4824-b702-9b4d63f9a86a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/author.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/Animated-Border-Thumbnail.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/css/style-not-required.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/css/ui-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/how-to-use.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/border-animate/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Comfortaa/Comfortaa-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/Playfair-Display/PlayfairDisplay-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/b-yellow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/content/author-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/content/data-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/content/user-ava.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/+.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/bg-change.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/circle-cursor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/delete.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/load.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/logout.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/pen.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/publish-dash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/publish-tool1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/publish-tool2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/publish-tool3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/publish-tool4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/publish-tool5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/ready.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/user-check.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/user-check.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon/user-dash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/publish-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pre_post.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/publish.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/author.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pre_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/publication.html" beforeDir="false" afterPath="$PROJECT_DIR$/publication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/publish.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -78,7 +41,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -126,7 +89,11 @@
       <workItem from="1601973763248" duration="1759000" />
       <workItem from="1601975635407" duration="384000" />
       <workItem from="1602838901929" duration="9188000" />
-      <workItem from="1603081667752" duration="110681000" />
+      <workItem from="1603081667752" duration="116995000" />
+      <workItem from="1603526531749" duration="1347000" />
+      <workItem from="1603530462815" duration="44000" />
+      <workItem from="1603532981698" duration="199000" />
+      <workItem from="1603687811888" duration="3069000" />
     </task>
     <servers />
   </component>
@@ -146,18 +113,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603257843582" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603260905459">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603533175512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603260905459" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603533175512" />
     <state x="0" y="0" width="587" height="728" key="find.popup" timestamp="1600754527982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600754527982" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603444211321">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603689336996">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603444211321" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603689336996" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -165,25 +132,21 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/profile.html</url>
           <line>782</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>2012</line>
-          <properties lambdaOrdinal="-1" />
+          <line>2023</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>2034</line>
-          <properties lambdaOrdinal="-1" />
+          <line>2045</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/category.html</url>
           <line>830</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>

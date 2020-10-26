@@ -1167,10 +1167,8 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: start;
-}
-
-.author-item-wrapper {
     overflow-x: scroll;
+    padding-top: 3px;
 }
 
 .author-item-wrapper div+div {
@@ -1186,12 +1184,27 @@ a:hover {
     text-align: center;
 }
 
-.author-img {
+.author-img-wrapper {
+    position: relative;
     width: 70px;
     height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author-img-wrapper img {
+    width: 64px;
+    height: 64px;
     border-radius: 50%;
-    padding: 3px;
-    border: 1px dashed #DEDFE5;
+    object-fit: cover;
+}
+
+.author-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    position: absolute;
 }
 
 .author-img img {
@@ -1199,10 +1212,6 @@ a:hover {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-}
-
-.unread {
-    border: 1px solid #203BB5;
 }
 
 .author-name {
@@ -1234,6 +1243,36 @@ a:hover {
 .author-add img {
     width: 16px;
     height: 16px;
+}
+
+.visited {
+    border: 1px dashed #DEDFE5;
+}
+
+.unvisited {
+    animation-name: pulse;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+.spinning {
+    border: 1px dashed #203BB5;
+    animation-name: spinning;
+    animation-duration: 6s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {border: 1px solid #326BFF;}
+    50% {border: 1px solid #f72ea3;}
+    100% {border: 1px solid #326BFF;}
+}
+
+@keyframes spinning {
+    0%   {transform: rotate(0deg)}
+    100%  {transform: rotate(360deg)}
 }
 /*author css end*/
 
@@ -4427,6 +4466,10 @@ footer {
     color: #131315;
 }
 
+.about-title-after {
+    margin-top: 52px;
+}
+
 .about-title-after img {
     width: 100%;
 }
@@ -4472,6 +4515,8 @@ footer {
     color: #8D8F9B;
 }
 /*about.html css*/
+
+
 
 
 /*media queries*/
@@ -5312,9 +5357,14 @@ footer {
         width: 60px;
     }
 
-    .author-img {
+    .author-img-wrapper {
         width: 60px;
         height: 60px;
+    }
+
+    .author-img-wrapper img {
+        width: 54px;
+        height: 54px;
     }
 
     .author-add {
@@ -6420,7 +6470,5 @@ footer {
     .profile {
         transition-delay: 0.22s;
     }
-
-
 }
 /*media queries end*/
