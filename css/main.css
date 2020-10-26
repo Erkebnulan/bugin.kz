@@ -1214,6 +1214,40 @@ a:hover {
     object-fit: cover;
 }
 
+.visited {
+    border: 1px dashed #DEDFE5;
+}
+
+.unvisited {
+    border: 1px solid #326BFF;
+}
+
+/*.unvisited {
+    animation-name: pulse;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+.spinning {
+    border: 1px dashed #203BB5;
+    animation-name: spinning;
+    animation-duration: 6s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {border: 1px solid #326BFF;}
+    50% {border: 1px solid #f72ea3;}
+    100% {border: 1px solid #326BFF;}
+}
+
+@keyframes spinning {
+    0%   {transform: rotate(0deg)}
+    100%  {transform: rotate(360deg)}
+}*/
+
 .author-name {
     margin-top: 10px;
 }
@@ -1243,36 +1277,6 @@ a:hover {
 .author-add img {
     width: 16px;
     height: 16px;
-}
-
-.visited {
-    border: 1px dashed #DEDFE5;
-}
-
-.unvisited {
-    animation-name: pulse;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-    animation-duration: 4s;
-}
-
-.spinning {
-    border: 1px dashed #203BB5;
-    animation-name: spinning;
-    animation-duration: 6s;
-    animation-timing-function: ease-out;
-    animation-iteration-count: infinite;
-}
-
-@keyframes pulse {
-    0% {border: 1px solid #326BFF;}
-    50% {border: 1px solid #f72ea3;}
-    100% {border: 1px solid #326BFF;}
-}
-
-@keyframes spinning {
-    0%   {transform: rotate(0deg)}
-    100%  {transform: rotate(360deg)}
 }
 /*author css end*/
 

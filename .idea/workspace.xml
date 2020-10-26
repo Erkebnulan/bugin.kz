@@ -4,13 +4,19 @@
     <list default="true" id="bc95f91e-71ee-4824-b702-9b4d63f9a86a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/author.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/Animated-Border-Thumbnail.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/css/style-not-required.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/css/ui-button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/how-to-use.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/border-animate/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pre_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/pre_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publication.html" beforeDir="false" afterPath="$PROJECT_DIR$/publication.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/publish.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +100,8 @@
       <workItem from="1603530462815" duration="44000" />
       <workItem from="1603532981698" duration="199000" />
       <workItem from="1603687811888" duration="3069000" />
+      <workItem from="1603693383274" duration="15000" />
+      <workItem from="1603706890202" duration="626000" />
     </task>
     <servers />
   </component>
@@ -113,10 +121,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603257843582" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603533175512">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603693395614">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603533175512" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603693395614" />
     <state x="0" y="0" width="587" height="728" key="find.popup" timestamp="1600754527982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -136,12 +144,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>2023</line>
+          <line>2022</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>2045</line>
+          <line>2044</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
