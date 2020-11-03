@@ -4,13 +4,15 @@ $('.search-btn').click(function (){
         $('.search').toggleClass('search-uncover');
         $('.header-bottom').toggleClass('null-opacity');
     }
+
 });
 
 /*поиск в header*/
 $(document).mouseup(function (e){
-    var div = $(".search");  //класс элемента вне которого клик
+    var div = $(".search");  //класс элемента вне которого
     if (!div.is(e.target) && div.has(e.target).length === 0) {
         div.removeClass('search-uncover');
+        $('.header-bottom').removeClass('null-opacity');
     }
 });
 

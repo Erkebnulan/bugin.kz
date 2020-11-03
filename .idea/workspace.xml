@@ -3,20 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="bc95f91e-71ee-4824-b702-9b4d63f9a86a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/Animated-Border-Thumbnail.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/css/animated-border/animated-border.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/css/style-not-required.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/css/ui-button.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/how-to-use.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/border-animate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/author.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-BlackItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-BoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-Heavy.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-HeavyItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-LightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-MediumItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-RegularItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-SemiboldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-ThinItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-Ultralight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-UltralightItalic.otf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publication.html" beforeDir="false" afterPath="$PROJECT_DIR$/publication.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,19 +53,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/icon" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img" />
       <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img\icon" />
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img\content" />
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img" />
       <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\fonts\Comfortaa" />
       <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\fonts\Playfair-Display" />
-      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img\content" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Safiolla\PhpstormProjects\bugin.kz\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,6 +108,19 @@
       <workItem from="1603687811888" duration="3069000" />
       <workItem from="1603693383274" duration="15000" />
       <workItem from="1603706890202" duration="626000" />
+      <workItem from="1603775444294" duration="6528000" />
+      <workItem from="1603862365543" duration="16000" />
+      <workItem from="1604381947580" duration="385000" />
+      <workItem from="1604394395434" duration="1647000" />
+      <workItem from="1604404097650" duration="340000" />
+      <workItem from="1604405027698" duration="12000" />
+      <workItem from="1604405115418" duration="175000" />
+      <workItem from="1604406279165" duration="398000" />
+      <workItem from="1604408427892" duration="4000" />
+      <workItem from="1604562921075" duration="12000" />
+      <workItem from="1604654900781" duration="43000" />
+      <workItem from="1604673348222" duration="216000" />
+      <workItem from="1604895222940" duration="25578000" />
     </task>
     <servers />
   </component>
@@ -121,18 +140,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603257843582" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603693395614">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1604405034718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603693395614" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604405034718" />
     <state x="0" y="0" width="587" height="728" key="find.popup" timestamp="1600754527982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600754527982" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603689336996">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604910467499">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603689336996" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-183.1920.1040@0.0.1366.728" timestamp="1604910467499" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603780595128" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -144,17 +164,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>2022</line>
+          <line>2032</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/index.html</url>
-          <line>2044</line>
+          <line>2054</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/category.html</url>
-          <line>830</line>
+          <line>841</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
