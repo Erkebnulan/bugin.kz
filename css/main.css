@@ -1131,6 +1131,8 @@ a:hover {
 }
 /*header bottom css end*/
 /*header css end*/
+
+
 /*top-news css*/
 .top-news {
     padding-top: 10px;
@@ -1464,7 +1466,6 @@ a:hover {
     animation-iteration-count: infinite;
     animation-duration: 4s;
 }
-
 .spinning {
     border: 1px dashed #203BB5;
     animation-name: spinning;
@@ -1472,13 +1473,11 @@ a:hover {
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
 }
-
 @keyframes pulse {
     0% {border: 1px solid #326BFF;}
     50% {border: 1px solid #f72ea3;}
     100% {border: 1px solid #326BFF;}
 }
-
 @keyframes spinning {
     0%   {transform: rotate(0deg)}
     100%  {transform: rotate(360deg)}
@@ -2153,27 +2152,11 @@ a:hover {
 .view-slide-img {
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
-=======
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
->>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
 }
 
 .view-slide-img img {
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
-=======
-    max-width: 270px;
->>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
     -o-object-fit: cover;
     object-fit: cover;
 }
@@ -2353,10 +2336,6 @@ a:hover {
 
 .finance-article {
     padding: 100px 25px 30px 25px;
-<<<<<<< HEAD
-=======
-    background: #FFFFFF;
->>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
     -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.03), 0px 5px 10px rgba(0, 0, 0, 0.02), 0px 10px 20px rgba(0, 0, 0, 0.02), 0px 40px 80px rgba(0, 0, 0, 0.03);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.03), 0px 5px 10px rgba(0, 0, 0, 0.02), 0px 10px 20px rgba(0, 0, 0, 0.02), 0px 40px 80px rgba(0, 0, 0, 0.03);
     border-radius: 6px;
@@ -3097,12 +3076,7 @@ footer {
 .publication-tools .nav-link i {
     width: 14px;
     height: 14px;
-<<<<<<< HEAD
     background-size: contain;
-=======
-    -o-object-fit: contain;
-    object-fit: contain;
->>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
     margin-right: 8px;
 }
 
@@ -5287,7 +5261,6 @@ footer {
     line-height: 140%;
     color: #8D8F9B;
 }
-<<<<<<< HEAD
 /*about.html css*/
 
 
@@ -5556,44 +5529,6 @@ footer {
     }
 }
 
-=======
-
-/*about.html css*/
-/*media queries*/
-@media (min-width: 1200px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-width: 1200px;
-    }
-    .logout {
-        display: -webkit-box !important;
-        display: -ms-flexbox !important;
-        display: flex !important;
-    }
-}
-
-@media (min-width: 1024px) {
-    .dispute {
-        height: 100%;
-    }
-    .dispute-body {
-        max-height: 1249px;
-        overflow-y: scroll;
-    }
-    .dispute-body::-webkit-scrollbar {
-        width: 5px;
-    }
-    .dispute-body::-webkit-scrollbar-track {
-        background: transparent;
-    }
-    .dispute-body::-webkit-scrollbar-thumb {
-        background: #e0e0e0;
-    }
-    .dispute-body::-webkit-scrollbar-thumb:hover {
-        background: #888;
-    }
-}
-
->>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
 @media (max-width: 1200px) {
     .main-nav li + li {
         margin-left: 15px;
@@ -5791,12 +5726,9 @@ footer {
     }
     .other-news:before {
         content: none !important;
-<<<<<<< HEAD
     }
     .news-dropdown .dropdown-item{
         font-size: 20px;
-=======
->>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
     }
     .header-xs {
         display: -webkit-box;
@@ -6184,13 +6116,10 @@ footer {
     .about-body p + p {
         margin-top: 15px;
     }
-<<<<<<< HEAD
 
     .author-list {
         width: 100%;
     }
-=======
->>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
 }
 
 @media (max-width: 767px) {
@@ -7247,7 +7176,6 @@ footer {
         background: rgba(0, 0, 0, 0.7);
     }
 
-<<<<<<< HEAD
     .author-list-item {
         flex-wrap: wrap;
     }
@@ -7293,8 +7221,6 @@ footer {
     }
 }
 
-=======
->>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
 @media (max-height: 600px) and (max-width: 767px) {
     .main-nav {
         height: 312px;
