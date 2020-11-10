@@ -46,6 +46,10 @@ body {
     color: #333333;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     padding: 0;
@@ -5377,6 +5381,120 @@ footer {
     color: #4F5159;
 }
 /*author-list.html css end*/
+
+
+/*story-modal css*/
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0;
+}
+
+.modal-overlay.show {
+    opacity: 0.9;
+    z-index: 1040;
+}
+
+.modal-story-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    padding-top: 90px;
+}
+
+.modal-story-wrapper.show {
+    display: block!important;
+}
+
+.modal-story-content {
+    max-width: 850px;
+    margin: auto;
+    transition: 0.3s;
+    transform: scale(0.01);
+}
+
+.modal-story-content.open {
+    transform: scale(1);
+}
+
+.modal-story-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0;
+}
+
+.modal-story-author {
+    display: flex;
+    align-items: center;
+}
+
+.modal-story-author img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-right: 15px;
+}
+
+.modal-story-author p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.modal-story-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.modal-story-close img {
+    width: 10px;
+    height: 10px;
+}
+
+.modal-story {
+    padding: 30px 40px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../img/content/publ-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.other-story {
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.story-slider-item:focus {
+    outline: none;
+}
+
+.modal-story-close:focus {
+    outline: none;
+}
+
+
+
+
+/*story-modal css end*/
 
 
 
