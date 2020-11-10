@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="bc95f91e-71ee-4824-b702-9b4d63f9a86a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
+>>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +96,7 @@
       <workItem from="1603775444294" duration="6528000" />
       <workItem from="1603862365543" duration="16000" />
       <workItem from="1604381947580" duration="385000" />
+<<<<<<< HEAD
       <workItem from="1604394395434" duration="1647000" />
       <workItem from="1604404097650" duration="340000" />
       <workItem from="1604405027698" duration="12000" />
@@ -104,6 +109,8 @@
       <workItem from="1604895222940" duration="25578000" />
       <workItem from="1604924394785" duration="275000" />
       <workItem from="1604980114596" duration="638000" />
+=======
+>>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
     </task>
     <servers />
   </component>
@@ -123,18 +130,31 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603257843582" />
+<<<<<<< HEAD
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1604405034718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604405034718" />
+=======
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603862378083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603862378083" />
+>>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
     <state x="0" y="0" width="587" height="728" key="find.popup" timestamp="1600754527982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="0" y="0" width="587" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1600754527982" />
+<<<<<<< HEAD
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1604910467499">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-183.1920.1040@0.0.1366.728" timestamp="1604910467499" />
+=======
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1603780595128">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+>>>>>>> 81bfedba68cc49f76e05cca8f3d97ab9a6798e8c
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603780595128" />
   </component>
   <component name="XDebuggerManager">
