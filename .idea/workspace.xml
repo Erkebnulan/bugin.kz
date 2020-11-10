@@ -3,26 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bc95f91e-71ee-4824-b702-9b4d63f9a86a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/author.html" beforeDir="false" afterPath="$PROJECT_DIR$/author.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category.html" beforeDir="false" afterPath="$PROJECT_DIR$/category.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-BlackItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-BoldItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-Heavy.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-HeavyItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-Light.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-LightItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-MediumItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-RegularItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-SemiboldItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-Thin.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-ThinItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-Ultralight.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/SF-Pro-Display/SF-Pro-Display-UltralightItalic.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/publication.html" beforeDir="false" afterPath="$PROJECT_DIR$/publication.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +102,8 @@
       <workItem from="1604654900781" duration="43000" />
       <workItem from="1604673348222" duration="216000" />
       <workItem from="1604895222940" duration="25578000" />
+      <workItem from="1604924394785" duration="275000" />
+      <workItem from="1604980114596" duration="638000" />
     </task>
     <servers />
   </component>
