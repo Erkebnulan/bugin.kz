@@ -393,72 +393,41 @@
 </section>
 
 <div id="storyModal" class="modal-story-wrapper">
+    <button class="modal-slider-prev">
+        <svg width="52" height="102" viewBox="0 0 52 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M51 1L1 51L51 101" stroke="white"/>
+        </svg>
+    </button>
     <div class="modal-story-content">
         <div class="story-slider">
             <div class="story-slider-item">
-                <div class="modal-story-top">
-                    <div class="modal-story-author">
-                        <img src="img/content/author-img.png">
-                        <p>Ashat Kasengali</p>
+                <div class="modal-story-header">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                             aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                        </div>
                     </div>
-                    <a class="modal-story-close" href="#">
-                        <img src="img/icon/x.svg">
-                    </a>
+                    <div class="modal-story-top">
+                        <div class="modal-story-author">
+                            <img src="img/content/author-img.png">
+                            <p>Ashat Kasengali</p>
+                        </div>
+                        <a class="modal-story-close" href="#">
+                            <img src="img/icon/x.svg">
+                        </a>
+                    </div>
                 </div>
-                <div class="modal-story main-story">
-                    <div class="publication-intro">
-                        <div class="publication-category">
-                            <div class="publication-type"></div>
-                            <p>Әлем</p>
-                        </div>
-                        <div class="publication-author">
-                            <p>Kymbat Slyambekov</p>
-                        </div>
-                        <ul class="nav publication-meta">
-                            <li class="nav-item">
-                                <p>2 сағат бұрын</p>
-                            </li>
-                            <li class="nav-item">
-                                <i class="eye"></i>
-                                <p>2895</p>
-                            </li>
-                        </ul>
-                    </div>
-                    <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
-                    <div class="publication-introduction">
-                        <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
-                    </div>
-                    <ul class="nav publication-tools">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="cloud"></i>
-                                <p>16 пікір</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="earphone"></i>
-                                <p>Тыңдыу</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="share-link"></i>
-                                <p>Бөлісу</p>
-                            </a>
-                        </li>
-                    </ul>
-                    </div>
-                <div class="modal-story other-story">
-                    <div class="publication-intro">
-                        <div class="publication-category">
+                <div class="modal-story-body">
+                    <div class="modal-story main-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
                                 <div class="publication-type"></div>
                                 <p>Әлем</p>
                             </div>
-                        <div class="publication-author">
+                            <div class="publication-author">
                                 <p>Kymbat Slyambekov</p>
                             </div>
-                        <ul class="nav publication-meta">
+                            <ul class="nav publication-meta">
                                 <li class="nav-item">
                                     <p>2 сағат бұрын</p>
                                 </li>
@@ -467,233 +436,565 @@
                                     <p>2895</p>
                                 </li>
                             </ul>
+                        </div>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                        </div>
+                        <ul class="nav publication-tools">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
-                    <div class="publication-introduction">
-                        <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                    <div class="modal-story other-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                        </div>
+                        <ul class="nav publication-tools">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="nav publication-tools">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="cloud"></i>
-                                <p>16 пікір</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="earphone"></i>
-                                <p>Тыңдыу</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="share-link"></i>
-                                <p>Бөлісу</p>
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="modal-story other-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                        </div>
+                        <ul class="nav publication-tools">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-story other-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                        </div>
+                        <ul class="nav publication-tools">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="story-slider-item">
-                <div class="modal-story-top">
-                    <div class="modal-story-author">
-                        <img src="img/content/author-img.png">
-                        <p>Ashat Kasengali</p>
+                <div class="modal-story-header">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                             aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                        </div>
                     </div>
-                    <a class="modal-story-close" href="#">
-                        <img src="img/icon/x.svg">
-                    </a>
+                    <div class="modal-story-top">
+                        <div class="modal-story-author">
+                            <img src="img/content/author-img.png">
+                            <p>Ashat Kasengali</p>
+                        </div>
+                        <a class="modal-story-close" href="#">
+                            <img src="img/icon/x.svg">
+                        </a>
+                    </div>
                 </div>
-                <div class="modal-story main-story">
-                    <div class="publication-intro">
-                        <div class="publication-category">
-                            <div class="publication-type"></div>
-                            <p>Әлем</p>
+                <div class="modal-story-body">
+                    <div class="modal-story main-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="publication-author">
-                            <p>Kymbat Slyambekov</p>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
                         </div>
-                        <ul class="nav publication-meta">
+                        <ul class="nav publication-tools">
                             <li class="nav-item">
-                                <p>2 сағат бұрын</p>
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <i class="eye"></i>
-                                <p>2895</p>
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
                             </li>
                         </ul>
                     </div>
-                    <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
-                    <div class="publication-introduction">
-                        <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
-                    </div>
-                    <ul class="nav publication-tools">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="cloud"></i>
-                                <p>16 пікір</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="earphone"></i>
-                                <p>Тыңдыу</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="share-link"></i>
-                                <p>Бөлісу</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="modal-story other-story">
-                    <div class="publication-intro">
-                        <div class="publication-category">
-                            <div class="publication-type"></div>
-                            <p>Әлем</p>
+                    <div class="modal-story other-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="publication-author">
-                            <p>Kymbat Slyambekov</p>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
                         </div>
-                        <ul class="nav publication-meta">
+                        <ul class="nav publication-tools">
                             <li class="nav-item">
-                                <p>2 сағат бұрын</p>
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <i class="eye"></i>
-                                <p>2895</p>
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
                             </li>
                         </ul>
                     </div>
-                    <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
-                    <div class="publication-introduction">
-                        <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                    <div class="modal-story other-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                        </div>
+                        <ul class="nav publication-tools">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="nav publication-tools">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="cloud"></i>
-                                <p>16 пікір</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="earphone"></i>
-                                <p>Тыңдыу</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="share-link"></i>
-                                <p>Бөлісу</p>
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="modal-story other-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                        </div>
+                        <ul class="nav publication-tools">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="story-slider-item">
-                <div class="modal-story-top">
-                    <div class="modal-story-author">
-                        <img src="img/content/author-img.png">
-                        <p>Ashat Kasengali</p>
+                <div class="modal-story-header">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                             aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                        </div>
                     </div>
-                    <a class="modal-story-close" href="#">
-                        <img src="img/icon/x.svg">
-                    </a>
+                    <div class="modal-story-top">
+                        <div class="modal-story-author">
+                            <img src="img/content/author-img.png">
+                            <p>Ashat Kasengali</p>
+                        </div>
+                        <a class="modal-story-close" href="#">
+                            <img src="img/icon/x.svg">
+                        </a>
+                    </div>
                 </div>
-                <div class="modal-story main-story">
-                    <div class="publication-intro">
-                        <div class="publication-category">
-                            <div class="publication-type"></div>
-                            <p>Әлем</p>
+                <div class="modal-story-body">
+                    <div class="modal-story main-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="publication-author">
-                            <p>Kymbat Slyambekov</p>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
                         </div>
-                        <ul class="nav publication-meta">
+                        <ul class="nav publication-tools">
                             <li class="nav-item">
-                                <p>2 сағат бұрын</p>
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <i class="eye"></i>
-                                <p>2895</p>
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
                             </li>
                         </ul>
                     </div>
-                    <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
-                    <div class="publication-introduction">
-                        <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
-                    </div>
-                    <ul class="nav publication-tools">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="cloud"></i>
-                                <p>16 пікір</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="earphone"></i>
-                                <p>Тыңдыу</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="share-link"></i>
-                                <p>Бөлісу</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="modal-story other-story">
-                    <div class="publication-intro">
-                        <div class="publication-category">
-                            <div class="publication-type"></div>
-                            <p>Әлем</p>
+                    <div class="modal-story other-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="publication-author">
-                            <p>Kymbat Slyambekov</p>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
                         </div>
-                        <ul class="nav publication-meta">
+                        <ul class="nav publication-tools">
                             <li class="nav-item">
-                                <p>2 сағат бұрын</p>
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <i class="eye"></i>
-                                <p>2895</p>
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
                             </li>
                         </ul>
                     </div>
-                    <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
-                    <div class="publication-introduction">
-                        <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                    <div class="modal-story other-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                        </div>
+                        <ul class="nav publication-tools">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="nav publication-tools">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="cloud"></i>
-                                <p>16 пікір</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="earphone"></i>
-                                <p>Тыңдыу</p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="share-link"></i>
-                                <p>Бөлісу</p>
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="modal-story other-story">
+                        <div class="publication-intro">
+                            <div class="publication-category">
+                                <div class="publication-type"></div>
+                                <p>Әлем</p>
+                            </div>
+                            <div class="publication-author">
+                                <p>Kymbat Slyambekov</p>
+                            </div>
+                            <ul class="nav publication-meta">
+                                <li class="nav-item">
+                                    <p>2 сағат бұрын</p>
+                                </li>
+                                <li class="nav-item">
+                                    <i class="eye"></i>
+                                    <p>2895</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <h1 class="publication-title">Samsung сатылымға шектеулі шыққан Galaxy Z Fold2 смартфонын таныстырды</h1>
+                        <div class="publication-introduction">
+                            <p>Samsung Electronics екінші шарасында - Unpacked Part 2-де бір ғана әрекетпен планшетке айналатын <a href="#">Galaxy Z Fold2</a> смартфонын  толығырақ таныстырды. Бұл туралы <a href="#">Samsung Newsroom Kazakhstan</a> сайты хабарлады.</p>
+                        </div>
+                        <ul class="nav publication-tools">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="cloud"></i>
+                                    <p>16 пікір</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="earphone"></i>
+                                    <p>Тыңдыу</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <i class="share-link"></i>
+                                    <p>Бөлісу</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <button class="modal-slider-next">
+        <svg width="52" height="102" viewBox="0 0 52 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L51 51L1 101" stroke="white"/>
+        </svg>
+    </button>
 </div>
 
 <div class="modal-overlay"></div>
@@ -737,10 +1038,11 @@
         $(this).addClass('spinning');
     })
 </script>-->
-
 <script>
     $('.author-item').click(function (){
         $('.modal-story-wrapper').addClass('show');
+        $('.story-slider').slick("refresh");
+        $('.modal-story-body').slick("refresh");
         setTimeout(function(){
             $(".modal-story-content").addClass("open");
         },1);
@@ -749,7 +1051,6 @@
             $('body').addClass('modal-open');
         }
     })
-
     $('.modal-story-close').click(function (){
         $('.modal-story-wrapper').removeClass('show');
         $('.modal-overlay').removeClass('show')
@@ -757,20 +1058,21 @@
         $('body').removeClass('modal-open');
     })
 </script>
-
 <script>
     $('.story-slider').slick({
         dots: false,
         infinite: false,
-        speed: 300,
+        speed: 700,
         slidesToShow: 1,
         slidesToScroll: 1,
+        prevArrow: $('.modal-slider-prev'),
+        nextArrow: $('.modal-slider-next'),
         responsive: [
             {
                 breakpoint: 1023,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: true
                 }
@@ -778,12 +1080,56 @@
             {
                 breakpoint: 767,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             },
         ]
     });
+</script>
+
+<script>
+    const slider = $(".modal-story-body");
+    slider
+        .slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            vertical: true,
+            arrows: false,
+            verticalSwiping: true,
+            draggable: true,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+            ]
+        });
+
+    slider.on('wheel', (function(e) {
+        e.preventDefault();
+
+        if (e.originalEvent.deltaY < 0) {
+            $(this).slick('slickPrev');
+        } else {
+            $(this).slick('slickNext');
+        }
+    }));
 </script>
 
 </body>

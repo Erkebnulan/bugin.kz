@@ -3044,6 +3044,10 @@ footer {
     border-bottom: 1px solid rgba(29, 50, 168, 0.2);
 }
 
+.publication-introduction a:focus {
+    outline: none;
+}
+
 .publication-introduction p {
     font-weight: normal;
     font-size: 22px;
@@ -5415,10 +5419,10 @@ footer {
 }
 
 .modal-story-content {
-    max-width: 850px;
+    width: 60%;
     margin: auto;
-    transition: 0.3s;
-    transform: scale(0.01);
+    transition: 0.4s;
+    transform: scale(0.1);
 }
 
 .modal-story-content.open {
@@ -5429,7 +5433,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 22px 0;
+    padding: 22px 0 0 0;
 }
 
 .modal-story-author {
@@ -5473,11 +5477,49 @@ footer {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../img/content/publ-img.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 420px!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modal-story:focus {
+    outline: none;
+}
+
+.modal-story h1 {
+    margin-top: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.modal-story p {
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.modal-story .publication-tools {
+    margin-top: 30px;
 }
 
 .other-story {
-    margin-top: 20px;
     opacity: 0.5;
+}
+
+.story-slider {
+    margin: 0 -15px;
+}
+
+.story-slider-item {
+    padding: 0 15px;
 }
 
 .story-slider-item:focus {
@@ -5488,8 +5530,47 @@ footer {
     outline: none;
 }
 
+.modal-slider-prev, .modal-slider-next {
+    position: absolute;
+    width: 19%;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    padding: 0;
+}
 
+.modal-slider-prev:focus, .modal-slider-next:focus {
+    outline: none;
+}
 
+.modal-slider-prev:active svg path, .modal-slider-next:active svg path {
+    stroke: rgba(255, 255, 255, 0.5);
+}
+
+.modal-slider-prev {
+    left: 0;
+}
+
+.modal-slider-next {
+    right: 0;
+}
+
+.modal-story-wrapper button svg {
+    width: 50px;
+    height: 100px;
+}
+
+.progress {
+    height: 2px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.progress-bar {
+    background: #fff;
+}
 
 /*story-modal css end*/
 
