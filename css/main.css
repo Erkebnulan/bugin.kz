@@ -5478,9 +5478,9 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     height: 420px!important;
-    display: flex;
+    display: flex!important;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between!important;
     margin-top: 20px;
 }
 
@@ -5508,10 +5508,6 @@ footer {
 
 .modal-story .publication-tools {
     margin-top: 30px;
-}
-
-.other-story {
-    opacity: 0.5;
 }
 
 .story-slider {
@@ -5570,6 +5566,14 @@ footer {
 
 .progress-bar {
     background: #fff;
+}
+
+.modal-story-body .modal-story {
+    opacity: 0.5;
+}
+
+.modal-story-body .slick-active {
+    opacity: 1;
 }
 
 /*story-modal css end*/
@@ -6200,6 +6204,18 @@ footer {
 
     .author-list {
         width: 100%;
+    }
+
+    .modal-story-wrapper {
+        padding: 30px;
+    }
+
+    .modal-story-content {
+        width: 100%;
+    }
+
+    .modal-slider-next, .modal-slider-prev {
+        display: none!important;
     }
 }
 
@@ -7300,6 +7316,41 @@ footer {
         justify-content: center;
         height: 36px;
     }
+
+    .modal-story-wrapper {
+        padding: 20px;
+    }
+
+    .modal-story-top {
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .modal-story {
+        margin-top: 15px;
+        padding: 20px;
+    }
+
+    .modal-story-author p {
+        font-size: 16px;
+    }
+
+    .modal-story h1 {
+        -webkit-line-clamp: 4;
+    }
+
+    .modal-story p {
+        -webkit-line-clamp: 4;
+    }
+
+    .modal-story .publication-tools li + li {
+        margin-left: 0;
+    }
+
+    .modal-story .publication-tools {
+        justify-content: space-between;
+    }
 }
 
 @media (max-height: 600px) and (max-width: 767px) {
@@ -7397,5 +7448,4 @@ footer {
         transition-delay: 0.22s;
     }
 }
-
 /*media queries end*/
