@@ -18,12 +18,13 @@ $(document).mouseup(function (e){
 
 /*header menu для мобильников*/
 $('.menu-open-btn').click(function (){
-    $('.header-top-wrapper').addClass('menu-open')
+    $('.header-top-wrapper').addClass('menu-open');
+    $('body').addClass('scroll-locked');
 });
 
-/*header menu для мобильников*/
 $('.menu-close-btn').click(function (){
-    $('.header-top-wrapper').removeClass('menu-open')
+    $('.header-top-wrapper').removeClass('menu-open');
+    $('body').removeClass('scroll-locked');
 });
 
 /*слайдер на footer*/

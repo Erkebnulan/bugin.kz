@@ -46,6 +46,13 @@ body {
     color: #333333;
 }
 
+.scroll-locked {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 body.modal-open {
     overflow: hidden;
 }
