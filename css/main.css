@@ -1192,14 +1192,14 @@ a:hover {
 .news-slider-prev:before {
     content: url("../img/icon/subtract1.svg");
     position: absolute;
-    top: -11px;
+    top: -12px;
     left: -6px;
 }
 
 .news-slider-prev:after {
     content: url("../img/icon/subtract2.svg");
     position: absolute;
-    top: -11px;
+    top: -12px;
     right: -6px;
     z-index: 1;
 }
@@ -1211,14 +1211,14 @@ a:hover {
 .news-slider-next:before {
     content: url("../img/icon/subtract3.svg");
     position: absolute;
-    bottom: -7px;
+    bottom: -6px;
     left: -6px;
 }
 
 .news-slider-next:after {
     content: url("../img/icon/subtract4.svg");
     position: absolute;
-    bottom: -13px;
+    bottom: -12px;
     right: 0px;
 }
 
@@ -4040,7 +4040,7 @@ footer {
     width: -moz-fit-content;
     width: fit-content;
     position: absolute;
-    left: -85px;
+    left: -100px;
     top: 10px;
 }
 
@@ -4057,6 +4057,7 @@ footer {
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
+    white-space: nowrap;
 }
 
 /*category.html css end*/
@@ -4145,6 +4146,7 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    flex: 1;
 }
 
 .user-img {
@@ -4223,7 +4225,11 @@ footer {
     color: #1D32A8;
 }
 
-.profile-change-btn {
+.profile-body-btn {
+    display: flex;
+}
+
+.profile-change-btn, .profile-logout, .pwd-change {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.02), 0px 2px 4px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.02), 0px 10px 20px rgba(0, 0, 0, 0.02);
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.02), 0px 2px 4px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.02), 0px 10px 20px rgba(0, 0, 0, 0.02);
@@ -4240,15 +4246,25 @@ footer {
     height: fit-content;
 }
 
-.profile-change-btn p {
+.profile-logout, .pwd-change {
+    margin-left: 15px;
+}
+
+.profile-change-btn p, .profile-logout p, .pwd-change p {
     font-weight: normal;
     font-size: 18px;
     line-height: 100%;
     color: #4F5159;
 }
 
-.profile-change-btn img {
+.profile-change-btn img, .pwd-change img {
     width: 20px;
+    height: 20px;
+    margin-left: 13px;
+}
+
+.profile-logout img {
+    width: 18px;
     height: 20px;
     margin-left: 13px;
 }
@@ -5694,6 +5710,22 @@ footer {
         justify-content: flex-end;
         margin-bottom: 20px;
     }
+
+    .user-img {
+        margin-right: 10px;
+    }
+
+    .profile-logout, .pwd-change {
+        margin-left: 7px;
+    }
+
+    .profile-change-btn img, .pwd-change img {
+        margin-left: 8px;
+    }
+
+    .profile-logout img {
+        margin-left: 8px;
+    }
 }
 
 @media (max-width: 1023px) {
@@ -6217,6 +6249,20 @@ footer {
     .modal-slider-next, .modal-slider-prev {
         display: none!important;
     }
+
+    .profile-body-btn {
+        display: block;
+    }
+
+    .profile-logout, .pwd-change {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .profile-change-btn, .profile-logout, .pwd-change {
+        justify-content: space-between;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -7350,6 +7396,14 @@ footer {
 
     .modal-story .publication-tools {
         justify-content: space-between;
+    }
+
+    .profile-change-btn, .profile-logout, .pwd-change {
+        justify-content: center;
+    }
+
+    .profile-logout, .pwd-change {
+        margin-top: 10px;
     }
 }
 

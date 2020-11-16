@@ -26,6 +26,34 @@ $('.menu-close-btn').click(function (){
     $('.header-top-wrapper').removeClass('menu-open')
 });
 
+/*слайдер на footer*/
+$('.footer-nav').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 12,
+    slidesToScroll: 1,
+    variableWidth: true,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+            }
+        },
+    ]
+});
+
 
 
 
