@@ -627,14 +627,15 @@ a:hover {
     align-items: center;
     background: #F9F9FD;
     border-radius: 6px;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
     height: 40px;
 }
 
 .search-btn {
     border: none;
     background: transparent;
+    padding: 0;
 }
 
 .search-btn:focus {
@@ -812,46 +813,51 @@ a:hover {
     z-index: 3;
 }
 
-.for-name {
+.authorize-form {
     position: relative;
+    margin-bottom: 10px;
+    background: #F9F9FD;
+    border-radius: 6px;
+    padding: 13px 20px;
 }
 
-.for-name p {
+
+.authorize-form input {
+    border: none;
+    padding: 0;
+    background: transparent;
+}
+
+.authorize-form input:focus {
+    outline: none;
+}
+
+.authorize-form-focus {
+    background: #FFFFFF;
+    border: 1px solid #DEDFE6;
+    padding: 12px 20px;
+}
+
+.authorize-form span {
     font-weight: normal;
-    font-size: 12px;
     line-height: 100%;
+    font-size: 18px;
     color: #4F5159;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     padding: 0 5px;
-    background: #fff;
     position: absolute;
-    top: -5px;
+    top: 15px;
     left: 15px;
+    transition: transform .175s cubic-bezier(.215,.61,.355,1),color .175s cubic-bezier(.215,.61,.355,1),font-size .175s cubic-bezier(.215,.61,.355,1),-webkit-transform .175s cubic-bezier(.215,.61,.355,1);
+    white-space: nowrap;
+    pointer-events: none;
 }
 
-.for-name input {
-    background: #FFFFFF;
-    border: 1px solid #DEDFE6;
-    border-radius: 6px;
-    padding: 12px 20px;
-}
-
-.for-name input:focus {
-    outline: none;
-}
-
-.login input[type="password"] {
-    background: #F9F9FD;
-    border-radius: 6px;
-    border: none;
-    padding: 13px 20px;
-    margin-top: 10px;
-}
-
-.login input[type="password"]:focus {
-    outline: none;
+.authorize-form-focus span {
+    background: #fff;
+    transform: translate(-8px, -23px) scale(.75) translateZ(0);
 }
 
 .pwd-save {
@@ -1031,30 +1037,6 @@ a:hover {
     justify-content: center;
 }
 
-.registration input[type="password"] {
-    background: #F9F9FD;
-    border-radius: 6px;
-    border: none;
-    padding: 13px 20px;
-    margin-top: 10px;
-}
-
-.registration input[type="password"]:focus {
-    outline: none;
-}
-
-.registration input[type="email"] {
-    background: #F9F9FD;
-    border-radius: 6px;
-    border: none;
-    padding: 13px 20px;
-    margin-top: 10px;
-}
-
-.registration input[type="email"]:focus {
-    outline: none;
-}
-
 .registration-bottom {
     margin-top: 10px;
 }
@@ -1127,9 +1109,6 @@ a:hover {
     background: rgba(0, 0, 0, 0.3);
     z-index: -1;
     opacity: 0;
-    -webkit-transition: 0.2s;
-    -o-transition: 0.2s;
-    transition: 0.2s;
 }
 
 .overlay-show {
@@ -1749,7 +1728,19 @@ a:hover {
 .news-item-uncover img {
     width: 24px;
     height: 24px;
-    margin-right: 10px;
+}
+
+.news-item-uncover.uncover-animate img {
+    animation-name: circle;
+    animation-duration: 5s;
+    animation-delay: 0.1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes circle {
+    from {transform: rotate(0)}
+    to {transform: rotate(1800deg)}
 }
 
 .news-item-uncover span {
@@ -1757,6 +1748,7 @@ a:hover {
     line-height: 120%;
     color: #4F5159;
     font-weight: 400;
+    margin-left: 10px;
 }
 
 .news-aside {
@@ -1977,10 +1969,6 @@ a:hover {
     border-radius: 12px 12px 0px 0px;
 }
 
-.tv-logo {
-    margin-right: 160px;
-}
-
 .tv-logo img {
     max-width: 210px;
     max-height: 120px;
@@ -1995,6 +1983,7 @@ a:hover {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: space-between;
 }
 
 .tv-nav {
@@ -2078,31 +2067,24 @@ a:hover {
     margin-top: 14px;
 }
 
-.tv-news-slider .slick-prev, .tv-news-slider .slick-next {
-    top: -70px;
-    z-index: 1;
+.tv-news-prev, .tv-news-next {
     background: rgba(255, 255, 255, 0.05);
-    border-radius: 6px 0px 0px 6px;
     width: 50px;
     height: 44px;
+    border: none;
+    padding: 0;
 }
 
-.tv-news-slider .slick-prev {
+.tv-news-prev:focus, .tv-news-next:focus {
+    outline: none;
+}
+
+.tv-news-prev {
     border-radius: 6px 0px 0px 6px;
-    left: 1185px;
 }
 
-.tv-news-slider .slick-next {
+.tv-news-next {
     border-radius: 0 6px 6px 0;
-    left: 1235px;
-}
-
-.tv-news-slider .slick-prev:before {
-    content: url("../img/icon/tv-slider-arrow-left.svg");
-}
-
-.tv-news-slider .slick-next:before {
-    content: url("../img/icon/tv-slider-arrow-right.svg");
 }
 
 /*tv news css*/
@@ -2133,6 +2115,7 @@ a:hover {
     background: #F0F1F7 url("../img/view-iframe.png") no-repeat center/cover;
     border-radius: 12px 12px 0px 0px;
     padding-bottom: 38px;
+    margin-top: -12px;
 }
 
 .view-title {
@@ -5662,15 +5645,7 @@ footer {
     .news-aside {
         width: 34%;
     }
-    .tv-logo {
-        margin-right: 100px;
-    }
-    .tv-news-slider .slick-prev {
-        left: 877px;
-    }
-    .tv-news-slider .slick-next {
-        left: 927px;
-    }
+
     .finance-article-text h3 {
         padding-right: 60px;
     }
@@ -6028,21 +6003,23 @@ footer {
         padding-bottom: 40px;
     }
     .tv-news-header {
-        display: block;
+        flex-wrap: wrap;
+    }
+    .tv-logo {
+        order: 1;
+    }
+    .tv-news-arrows {
+        order: 2;
+    }
+    .tv-nav {
+        order: 3;
+        width: 100%;
     }
     .tv-nav .nav-item {
         -webkit-box-flex: 1;
         -ms-flex: 1;
         flex: 1;
         text-align: center;
-    }
-    .tv-news-slider .slick-next {
-        left: 678px;
-        top: -130px;
-    }
-    .tv-news-slider .slick-prev {
-        left: 628px;
-        top: -130px;
     }
     .tv-news-slider {
         margin-top: 20px;
@@ -6552,18 +6529,6 @@ footer {
         width: 105px;
         height: 60px;
     }
-    .tv-news-slider .slick-next {
-        left: 82%;
-        top: -90px;
-        width: 50px;
-        height: 30px;
-    }
-    .tv-news-slider .slick-prev {
-        left: 66%;
-        top: -90px;
-        width: 50px;
-        height: 30px;
-    }
     .tv-nav li + li {
         margin-left: 5px;
     }
@@ -6584,6 +6549,10 @@ footer {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
+    }
+    .tv-news-prev, .tv-news-next {
+        width: 50px;
+        height: 30px;
     }
     .tv-nav .nav-item {
         -webkit-box-flex: 1;

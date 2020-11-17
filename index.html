@@ -180,11 +180,14 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="for-name">
-                                <p>E-mail</p>
-                                <input type="email" placeholder="Arman@mail.ru">
+                            <div class="authorize-form">
+                                <span>E-mail</span>
+                                <input type="email">
                             </div>
-                            <input type="password" placeholder="Пароль">
+                            <div class="authorize-form">
+                                <span>Пароль</span>
+                                <input type="password">
+                            </div>
                             <div class="pwd-save">
                                 <label class="pwd-switch">
                                     <input type="checkbox">
@@ -207,12 +210,18 @@
                                     </svg>
                                 </a>
                             </div>
-                            <div class="for-name">
-                                <p>Атыңыз</p>
-                                <input type="text" placeholder="Elnoyle">
+                            <div class="authorize-form">
+                                <span>Атыңыз</span>
+                                <input type="text">
                             </div>
-                            <input type="email" placeholder="E-mail">
-                            <input type="password" placeholder="Пароль">
+                            <div class="authorize-form">
+                                <span>E-mail</span>
+                                <input type="email">
+                            </div>
+                            <div class="authorize-form">
+                                <span>Пароль</span>
+                                <input type="password">
+                            </div>
                             <div class="registration-img">
                                 <input type="file">
                                 <div class="registration-img-load">
@@ -1025,6 +1034,18 @@
                         <a class="nav-link" href="#">Экономика</a>
                     </li>
                 </ul>
+                <ul class="nav tv-news-arrows">
+                    <li class="nav-item">
+                        <button class="tv-news-prev">
+                            <img src="img/icon/tv-slider-arrow-left.svg">
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="tv-news-next">
+                            <img src="img/icon/tv-slider-arrow-right.svg">
+                        </button>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="tv-news-slider">
@@ -1139,7 +1160,7 @@
         </div>
     </section>
 
-    <section id="intro">
+    <!--<section id="intro">
         <div class="container">
             <div class="intro">
                 <div class="news-item">
@@ -1264,7 +1285,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <section id="view">
         <div class="container">
@@ -2052,6 +2073,8 @@
             slidesToShow: 2,
             slidesToScroll: 1,
             centerMode:true,
+            prevArrow: $('.tv-news-prev'),
+            nextArrow: $('.tv-news-next'),
             responsive: [
                 {
                     breakpoint: 1024,
@@ -2171,5 +2194,23 @@
             $(this).addClass('spinning');
         })
     </script>-->
+
+    <script>
+        $('.authorize-form').find('input').focus(function (){
+            $(this).closest('.authorize-form').addClass('authorize-form-focus')
+        });
+        $('.authorize-form').find('input').blur(function (){
+            if ($(this).val()=="") {
+                $(this).closest('.authorize-form').removeClass('authorize-form-focus')
+            }
+        });
+    </script>
+
+    <script>
+        $('.news-item-uncover').click(function (){
+            $(this).addClass('uncover-animate')
+        })
+    </script>
+
 </body>
 </html>
