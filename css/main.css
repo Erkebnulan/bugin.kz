@@ -2118,6 +2118,11 @@ a:hover {
     margin-top: -12px;
 }
 
+#view .container-fluid {
+    overflow: hidden;
+    padding: 0;
+}
+
 .view-title {
     padding: 40px 0;
 }
@@ -2224,7 +2229,7 @@ a:hover {
 }
 
 .view-slide-wrapper .slick-list {
-    padding: 0 7%;
+    overflow: visible;
 }
 
 /*view css end*/
@@ -4465,6 +4470,7 @@ footer {
 .data-img img {
     display: block;
     width: 100%;
+    max-width: 130px;
     max-height: 130px;
 }
 
@@ -5581,9 +5587,7 @@ footer {
 .modal-story-body .slick-active {
     opacity: 1;
 }
-
 /*story-modal css end*/
-
 
 
 /*media queries*/
@@ -5596,6 +5600,7 @@ footer {
         display: -ms-flexbox !important;
         display: flex !important;
     }
+
 }
 
 @media (min-width: 1024px) {
@@ -6595,6 +6600,7 @@ footer {
     #view {
         background-image: none;
     }
+
     .view-title {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -6610,7 +6616,7 @@ footer {
         font-size: 16px;
     }
     .view-slide-wrapper .view-slide, .view-slide-wrapper .news-continuous {
-        margin: 0 7px;
+        margin: 0 8px;
         height: 300px;
     }
     .view-slide-wrapper .news-continuous-caption {
