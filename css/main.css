@@ -7387,6 +7387,23 @@ footer {
     .profile-logout, .pwd-change {
         margin-top: 10px;
     }
+
+    .pagination {
+        flex-wrap: wrap;
+    }
+
+    .pagination li+li {
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+
+    .pagination li:first-child {
+        margin-right: 8px;
+    }
+
+    .page-link {
+        border-radius: 4px;
+    }
 }
 
 @media (max-height: 600px) and (max-width: 767px) {
