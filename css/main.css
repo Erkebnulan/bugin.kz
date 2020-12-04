@@ -5590,6 +5590,127 @@ footer {
 /*story-modal css end*/
 
 
+/*videohelp css*/
+.videohelp {
+    position: fixed;
+    left: 0;
+    bottom: 85px;
+    background: transparent;
+    width: 280px;
+    padding-top: 117px;
+    z-index: 99;
+    transform: translateX(-100%);
+    transition: all ease 0.3s;
+}
+
+.videohelp.open {
+    transform: translateX(0);
+}
+
+.videohelp-img {
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.icon {
+    display: inline-block;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.icon-videoman {
+    background: url("../img/videoman.svg") no-repeat center/contain;
+    width: 113px;
+    height: 150px;
+}
+
+.video-close {
+    border: none;
+    padding: 0;
+    background: #F5F5F5;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+.video-close:focus {
+    outline: none;
+}
+
+.video-close svg {
+    width: 16px;
+    height: 16px;
+}
+
+.videoplay-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 40px;
+    width: 100%;
+    background: linear-gradient(315deg, #1D32A8 0%, #326BFF 100%);
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+    position: relative;
+}
+
+.videoplay-btn:focus {
+    outline: none;
+}
+
+.videoplay-btn svg {
+    margin-right: 20px;
+    transition: all ease 0.4s;
+}
+
+.videoplay-btn p {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+}
+
+.videoplay-btn:hover svg {
+    transform: scale(1.4) translateX(5px);
+}
+
+.videohelp-caption {
+    padding: 10px 20px 14px 20px;
+    background: #fff;
+    position: relative;
+    width: 240px;
+}
+
+.videohelp-caption p {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    color: #4F5159;
+}
+
+.videohelp-caption svg {
+    position: absolute;
+    top: 9px;
+    right: 19px;
+}
+/*videohelp css end*/
+
+
 /*media queries*/
 @media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl {
@@ -7403,6 +7524,78 @@ footer {
 
     .page-link {
         border-radius: 4px;
+    }
+
+    .videohelp {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        background: #fff;
+        width: 180px;
+        border-radius: 0 10px 0 0;
+        bottom: 0;
+        transform: translateX(-105%);
+    }
+
+    .videohelp-img {
+        display: none;
+    }
+
+    .videoplay-btn {
+        order: 2;
+        padding-left: 10px;
+        justify-content: flex-start;
+        height: 40px;
+        padding-right: 10px;
+        border-radius: 10px 10px 0 0;
+        margin-top: 5px;
+    }
+
+    .videoplay-btn svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .videoplay-btn:hover svg {
+        transform: scale(1.2) translateX(0);
+    }
+
+    .videoplay-btn p {
+        font-size: 16px;
+    }
+
+    .videohelp-caption {
+        order: 1;
+        padding: 0 20px 0 10px;
+        margin-top: 0;
+        width: 100%;
+        background: transparent;
+    }
+
+    .videohelp-caption p {
+        font-size: 12px;
+    }
+
+    .video-close {
+        width: 20px;
+        height: 20px;
+        background: #EB001B;
+        right: -5px;
+        top: -5px;
+    }
+
+    .videohelp-caption svg {
+        display: none;
+    }
+
+    .video-close svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .video-close svg path {
+        stroke: #fff;
     }
 }
 
