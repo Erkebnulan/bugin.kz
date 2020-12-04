@@ -5708,6 +5708,45 @@ footer {
     top: 9px;
     right: 19px;
 }
+
+#videohelp_modal .modal-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    overflow-y: visible;
+    background: #000;
+    width: 70%;
+}
+
+.videohelp-modal-close {
+    background: transparent;
+    border: none;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    top: -40px;
+    right: 0;
+}
+
+.videohelp-modal-close:focus {
+    outline: none;
+}
+
+.icon-close {
+    background: url("../img/icon/x-burger.svg") no-repeat center/contain;
+    width: 30px;
+    height: 30px;
+}
+
+#video_iframe {
+    background: #000;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 500px!important;
+}
 /*videohelp css end*/
 
 
@@ -7596,6 +7635,19 @@ footer {
 
     .video-close svg path {
         stroke: #fff;
+    }
+
+    #videohelp_modal .modal-content {
+        top: 50%;
+        width: 100%;
+    }
+
+    #video_iframe {
+        height: 300px!important;
+    }
+
+    .videohelp-modal-close {
+        right: 15px;
     }
 }
 
