@@ -1342,9 +1342,16 @@ a:hover {
     font-size: 12px;
     line-height: 100%;
     color: #8D8F9B;
-    display: block;
     margin-top: 5px;
     font-weight: 400;
+}
+
+.sm-news-caption span:first-of-type {
+    margin-right: 4px;
+}
+
+.sm-news-caption span+span {
+    margin-left: 4px;
 }
 
 /*top-news css end*/
@@ -5597,7 +5604,6 @@ footer {
     bottom: 85px;
     background: transparent;
     width: 280px;
-    padding-top: 117px;
     z-index: 99;
     transform: translateX(-100%);
     transition: all ease 0.3s;
@@ -5608,9 +5614,31 @@ footer {
 }
 
 .videohelp-img {
+    position: relative;
+    width: 240px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.videohelp-1 .videohelp-img {
+    background: url("../img/content/videohelp-bg1.svg");
+}
+
+.videohelp-2 .videohelp-img {
+    background: url("../img/content/videohelp-bg2.png");
+}
+
+.videohelp-3 .videohelp-img {
+    background: url("../img/content/videohelp-bg3.svg");
+}
+
+.videohelp-img img {
     position: absolute;
-    top: 0;
-    left: 20px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .icon {
@@ -5620,25 +5648,30 @@ footer {
     flex-shrink: 0;
 }
 
-.icon-videoman {
-    background: url("../img/videoman.svg") no-repeat center/contain;
-    width: 113px;
-    height: 150px;
-}
-
 .video-close {
     border: none;
     padding: 0;
-    background: #F5F5F5;
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 0px 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: 0;
-    right: 10px;
+    right: 0;
+}
+
+.videohelp-1 .video-close {
+    background: #FFC388;
+}
+
+.videohelp-2 .video-close {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.videohelp-3 .video-close {
+    background: rgba(0, 0, 0, 0.2);
 }
 
 .video-close:focus {
@@ -5746,6 +5779,17 @@ footer {
     box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 500px!important;
+}
+
+.icon-b {
+    background: url("../img/icon/b.svg") no-repeat center/contain;
+    width: 10px;
+    height: 14px;
+}
+
+.publication-meta .icon-b {
+    width: 12px;
+    height: 16px;
 }
 /*videohelp css end*/
 
@@ -7565,77 +7609,62 @@ footer {
         border-radius: 4px;
     }
 
-    .videohelp {
-        display: flex;
-        flex-direction: column;
-        padding-top: 5px;
-        background: #fff;
-        width: 180px;
-        border-radius: 0 10px 0 0;
-        bottom: 0;
-        transform: translateX(-105%);
-    }
+   .videohelp {
+       display: flex;
+       background: #fff;
+       border-radius: 0 25px 25px 0;
+       bottom: 15px;
+       width: fit-content;
+   }
 
-    .videohelp-img {
+   .videoplay-btn {
+       order: 1;
+       width: 50px;
+       padding: 0;
+       border-radius: 0;
+   }
+
+    .videoplay-btn p {
         display: none;
     }
 
-    .videoplay-btn {
-        order: 2;
-        padding-left: 10px;
-        justify-content: flex-start;
-        height: 40px;
-        padding-right: 10px;
-        border-radius: 10px 10px 0 0;
-        margin-top: 5px;
-    }
-
     .videoplay-btn svg {
-        width: 20px;
-        height: 20px;
-        margin-right: 5px;
+        margin: 0;
     }
 
-    .videoplay-btn:hover svg {
-        transform: scale(1.2) translateX(0);
-    }
-
-    .videoplay-btn p {
-        font-size: 16px;
-    }
-
-    .videohelp-caption {
-        order: 1;
-        padding: 0 20px 0 10px;
-        margin-top: 0;
-        width: 100%;
-        background: transparent;
-    }
-
-    .videohelp-caption p {
-        font-size: 12px;
-    }
-
-    .video-close {
-        width: 20px;
-        height: 20px;
-        background: #EB001B;
-        right: -5px;
-        top: -5px;
-    }
+   .videohelp-caption {
+       order: 2;
+       padding: 7px 10px;
+       width: 190px;
+   }
 
     .videohelp-caption svg {
         display: none;
     }
 
+   .videohelp-img {
+       order: 3;
+       background: none!important;
+       width: fit-content;
+       height: 50px;
+   }
+
+   .video-close {
+       position: relative;
+       background: #EB001B!important;
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+   }
+
     .video-close svg {
-        width: 14px;
-        height: 14px;
+        width: 24px;
+        height: 24px;
     }
 
-    .video-close svg path {
-        stroke: #fff;
-    }
+   .videohelp-img img {
+       display: none;
+   }
 
     #videohelp_modal .modal-content {
         top: 50%;
