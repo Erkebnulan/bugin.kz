@@ -93,6 +93,7 @@ a:hover {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    align-items: center;
 }
 
 .news-item-meta li + li {
@@ -4073,6 +4074,20 @@ footer {
 /*profile.html css*/
 .profile-news .news-article {
     width: 100%;
+}
+
+.profile-news .news-item-wrapper {
+    justify-content: initial;
+    margin: 0 -15px;
+    padding-top: 15px;
+}
+
+.profile-news .news-item {
+    margin: 15px;
+}
+
+.profile-news .news-continuous {
+    margin: 15px;
 }
 
 .profile-bg {
