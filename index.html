@@ -6,14 +6,15 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="icon" href="img/favicon.svg">
-
     <link rel="stylesheet" href="css/libs.min.css">
-
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <div class="preloader">
+        <div class="preloader-inner"></div>
+    </div>
+
     <header id="header">
         <div class="container">
             <div class="header">
@@ -2135,10 +2136,32 @@
         </div>
     </div>
 
-
     <script src="js/libs.min.js"></script>
     <script src="js/script.js"></script>
 
+    <script>
+        //preloader animation
+        var loader = document.getElementsByClassName("preloader-inner");
+        function loadBMAnimation(loader) {
+            var animation = bodymovin.loadAnimation({
+                container: loader,
+                renderer: "svg",
+                loop: true,
+                autoplay: true,
+                path: "img/preloader.json"
+            });
+        }
+        for (var i = 0; i < loader.length; i++) {
+            loadBMAnimation(loader[i]);
+        }
+        $(window).on('load', function () {
+            $('body').addClass('loaded_hiding');
+            window.setTimeout(function () {
+                $('body').addClass('loaded');
+                $('body').removeClass('loaded_hiding');
+            }, 500);
+        })
+    </script>
     <script>
         $('.news-slider-wrapper').slick({
             dots: false,
@@ -2302,7 +2325,6 @@
             $(this).addClass('uncover-animate')
         })
     </script>
-
     <script>
         $(document).ready(function (){
             setTimeout(function (){
