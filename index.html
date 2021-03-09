@@ -19,92 +19,30 @@
         <div class="container">
             <div class="header">
                 <div class="header-top-wrapper">
-                    <div class="header-xs d-none">
-                        <a class="logo-xs" href="index.html">
-                            <img src="img/logo.svg">
-                        </a>
-                        <!--<div class="weather-xs">
-                            <img src="img/icon/weather-shine.svg">
-                            <p>+29°</p>
-                            <div class="weather-city-xs">
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Алматыда</a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Алматыда</a>
-                                    <a class="dropdown-item" href="#">Алматыда</a>
-                                    <a class="dropdown-item" href="#">Алматыда</a>
-                                    <a class="dropdown-item" href="#">Алматыда</a>
-                                    <a class="dropdown-item" href="#">Алматыда</a>
-                                    <a class="dropdown-item" href="#">Алматыда</a>
-                                    <a class="dropdown-item" href="#">Алматыда</a>
-                                    <a class="dropdown-item" href="#">Алматыда</a>
-                                    <a class="dropdown-item" href="#">Алматыда</a>
-                                    <a class="dropdown-item" href="#">Алматыда</a>
-                                </div>
-                            </div>
-                        </div>-->
-                        <div class="search-xs">
-                            <button class="search-btn">
-                                <img src="img/icon/loupe.svg">
-                            </button>
-                            <input type="text" placeholder="Іздеу">
-                        </div>
-                        <a class="profile-xs" href="#">
-                            <img src="img/content/profile-img.png">
-                        </a>
-                        <a class="menu-close-btn" href="#">
-                            <img src="img/icon/burger-btn-close.svg">
-                        </a>
-                    </div>
                     <div class="header-top">
-                        <ul class="nav main-nav">
-                            <li class="nav-item">
-                                <a class="nav-link link-politics" href="category.html">Саясат</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-economy" href="category.html">Экономика</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-weekend" href="category.html">Weekend</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-sport" href="category.html">Спорт</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-society" href="category.html">Қоғам</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-world" href="category.html">Әлем жаңалықтары</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-law" href="category.html">Құқық</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-archive" href="category.html">Мұрағат</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link-covid" href="category.html">COVID-19</a>
-                            </li>
-                            <li class="nav-item news-dropdown">
-                                <a class="nav-link other-news dropdown-toggle" data-toggle="dropdown" href="#">
-                                    <img src="img/icon/menu.svg">
-                                    Басқа бөлімдер
-                                </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">Саясат</a>
-                                    <a class="dropdown-item" href="#">Саясат</a>
-                                    <a class="dropdown-item" href="#">Саясат</a>
-                                    <a class="dropdown-item" href="#">Саясат</a>
-                                    <a class="dropdown-item" href="#">Саясат</a>
-                                    <a class="dropdown-item" href="#">Саясат</a>
-                                    <a class="dropdown-item" href="#">Саясат</a>
-                                    <a class="dropdown-item" href="#">Саясат</a>
-                                    <a class="dropdown-item" href="#">Саясат</a>
-                                </div>
-                            </li>
-                        </ul>
+                        <div class="exchange-rates">
+                            <div class="usd">
+                                <img class="currency" src="img/icon/dollar.svg">
+                                <p>420,76</p>
+                                <img class="exchange-cursor" src="img/icon/cursor-up.svg">
+                            </div>
+                            <div class="euro">
+                                <img class="currency" src="img/icon/euro.svg">
+                                <p>420,76</p>
+                                <img class="exchange-cursor" src="img/icon/cursor-down.svg">
+                            </div>
+                        </div>
+                        <div class="ticker">
+                            <a class="ticker-item" href="#">Бегущая строка раз</a>
+                            <a class="ticker-item" href="#">Бегущая строка раз</a>
+                            <a class="ticker-item" href="#">Бегущая строка раз</a>
+                            <a class="ticker-item" href="#">Бегущая строка раз</a>
+                            <a class="ticker-item" href="#">Бегущая строка раз</a>
+                        </div>
                         <a class="link-call" href="tel:+78000040420">
                             <i class="icon icon-call"></i>
                             <span>8 800 004 04 20</span>
+                            <p>(Дс-Жм 09:00-18:00)</p>
                         </a>
                         <ul class="nav lang">
                             <li class="nav-item">
@@ -120,12 +58,14 @@
                                 <a class="nav-link" href="#">Qq</a>
                             </li>
                         </ul>
-                        <a class="new-note-xs d-none" href="#">
-                            <img src="img/icon/pen-edit-white.svg">
-                        </a>
                     </div>
                 </div>
                 <div class="header-bottom">
+                    <button class="call-menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                     <a class="logo" href="index.html">
                         <img src="img/logo.svg">
                     </a>
@@ -146,18 +86,6 @@
                                 <a class="dropdown-item" href="#">Алматыда</a>
                                 <a class="dropdown-item" href="#">Алматыда</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="exchange-rates">
-                        <div class="usd">
-                            <img class="currency" src="img/icon/dollar.svg">
-                            <p>420,76</p>
-                            <img class="exchange-cursor" src="img/icon/cursor-up.svg">
-                        </div>
-                        <div class="euro">
-                            <img class="currency" src="img/icon/euro.svg">
-                            <p>420,76</p>
-                            <img class="exchange-cursor" src="img/icon/cursor-down.svg">
                         </div>
                     </div>
                     <div class="search-wrapper">
@@ -215,6 +143,10 @@
                                     </svg>
                                 </a>
                             </div>
+                            <div class="change-user">
+                                <button class="change-user-btn active">Автор</button>
+                                <button class="change-user-btn">Компания</button>
+                            </div>
                             <div class="authorize-form">
                                 <span>Атыңыз</span>
                                 <input type="text">
@@ -244,13 +176,262 @@
                             </div>
                         </form>
                     </div>
-                    <a class="menu-open-btn d-none" href="#">
-                        <img src="img/icon/burger-btn.svg">
+                    <a class="logout d-none" href="#">
+                        <img src="img/icon/logout.svg">
                     </a>
                 </div>
             </div>
         </div>
     </header>
+
+    <section class="collapse-menu">
+        <div class="container">
+            <div class="header-xs">
+                <div class="exchange-rates">
+                    <div class="usd">
+                        <img class="currency" src="img/icon/dollar.svg">
+                        <p>420,76</p>
+                        <img class="exchange-cursor" src="img/icon/cursor-up.svg">
+                    </div>
+                    <div class="euro">
+                        <img class="currency" src="img/icon/euro.svg">
+                        <p>420,76</p>
+                        <img class="exchange-cursor" src="img/icon/cursor-down.svg">
+                    </div>
+                </div>
+                <a class="link-call" href="tel:+78000040420">
+                    <i class="icon icon-call"></i>
+                    <span>8 800 004 04 20</span>
+                    <p>(Дс-Жм 09:00-18:00)</p>
+                </a>
+                <ul class="nav lang">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Ққ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ру</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">En</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Qq</a>
+                    </li>
+                </ul>
+                <div class="weather">
+                    <img src="img/icon/weather-shine.svg">
+                    <p>+29°</p>
+                    <div class="weather-city">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Алматыда</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                            <a class="dropdown-item" href="#">Алматыда</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-wrapper">
+                    <div class="search">
+                        <button class="search-btn">
+                            <img src="img/icon/loupe.svg">
+                        </button>
+                        <input type="text" placeholder="Іздеу">
+                    </div>
+                </div>
+            </div>
+            <div class="nav-menu">
+                <div class="nav-item">
+                    <h6 class="nav-item-title">Категории</h6>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                            <span class="new-icon">new</span>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <div class="hidden-menu">
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                        </div>
+                        <li>
+                            <button class="show-more">Показать все</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <h6 class="nav-item-title">Buginnen basta</h6>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <div class="hidden-menu">
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                        </div>
+                        <li>
+                            <button class="show-more">Показать все</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <h6 class="nav-item-title">Авторам</h6>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <div class="hidden-menu">
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                        </div>
+                        <li>
+                            <button class="show-more">Показать все</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-item">
+                    <h6 class="nav-item-title">Партнерам</h6>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <li>
+                            <a href="#">Политика</a>
+                        </li>
+                        <div class="hidden-menu">
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                            <li>
+                                <a href="#">Образование</a>
+                            </li>
+                        </div>
+                        <li>
+                            <button class="show-more">Показать все</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="collapse-menu-bottom">
+                <ul class="menu-social">
+                    <li>
+                        <a href="#">
+                            <i class="icon fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon fa-phone"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon fa-mail"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon fa-insta"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="menu-mobile-app">
+                    <a class="app-btn app-android" href="#">
+                        <i class="icon fa-android"></i>
+                        <span>Play Market</span>
+                    </a>
+                    <a class="app-btn app-apple" href="#">
+                        <i class="icon fa-apple"></i>
+                        <span>AppStore</span>
+                    </a>
+                </div>
+                <a class="help-link" href="#">
+                    <span class="help-icon">
+                        <i class="icon fa-question"></i>
+                    </span>
+                    <p>Помощь</p>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <section id="top-news">
         <div class="container">
@@ -568,6 +749,16 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="banner">
+        <div class="container">
+            <a href="#">
+                <div class="banner-add">
+                    <img src="img/banner.png">
+                </div>
+            </a>
         </div>
     </section>
 
@@ -2140,6 +2331,86 @@
     <script src="js/script.js"></script>
 
     <script>
+        //Бегущая строка
+        $('.ticker').slick({
+            dots: false,
+            infinite: true,
+            speed: 600,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1000,
+            variableWidth: true,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+            ]
+        });
+
+        //show collapse-menu
+        $('.call-menu').click(function (){
+            $(this).toggleClass('active');
+            if($(this).hasClass('active')) {
+                $('.collapse-menu').addClass('show');
+                $('body').addClass('scroll-locked');
+            } else {
+                $('.collapse-menu').removeClass('show');
+                $('body').removeClass('scroll-locked');
+            }
+        });
+
+        $(document).mouseup(function (e){
+            var div = $("#header, .collapse-menu");  //класс элемента вне которого клик
+            if (!div.is(e.target) && div.has(e.target).length === 0 && $('.collapse-menu').hasClass('show')) {
+                $('.call-menu').click();
+            }
+        });
+
+        //show more menu
+        $('.show-more').click(function (){
+            $(this).closest('.menu-list').find('.hidden-menu').slideToggle(400);
+            $(this).toggleClass('open');
+            if($(this).hasClass('open')){
+                $(this).html('Скрыть');
+            } else  {
+                $(this).html('Показать все');
+            }
+        })
+
+        //change registration user
+        $('.change-user-btn').click(function (){
+            $('.change-user-btn').removeClass('active');
+            $(this).addClass('active');
+        })
+
+        //logout
+        $('.profile').mouseenter(function (){
+            $('.logout').css('transform', 'translateX(0)')
+        })
+
+        $('.logout').mouseenter(function (){
+            $(this).css('transform', 'translateX(0)')
+        })
+
+        $('.profile').mouseleave(function (){
+            $('.logout').css('transform', 'translateX(-44px)')
+        })
+
+        $('.logout').mouseleave(function (){
+            $('.logout').css('transform', 'translateX(-44px)')
+        })
+
+    </script>
+
+    <script>
         //preloader animation
         var loader = document.getElementsByClassName("preloader-inner");
         function loadBMAnimation(loader) {
@@ -2267,12 +2538,14 @@
             $('body').addClass('scroll-locked')
         })
 
+
+        //Здесь были изменения
         $(document).mouseup(function (e){
             var div = $(".login");  //класс элемента вне которого клик
-            if (!div.is(e.target) && div.has(e.target).length === 0) {
+            if (!div.is(e.target) && div.has(e.target).length === 0 && div.hasClass('show')) {
                 div.removeClass('show');
                 $('.overlay').removeClass('overlay-show');
-                $('body').removeClass('scroll-locked')
+                $('body').removeClass('scroll-locked');
             }
         });
 
@@ -2282,10 +2555,13 @@
             $('body').addClass('scroll-locked')
         })
 
+
+        //Здесь были изменения
         $(document).mouseup(function (e){
             var div = $(".registration");  //класс элемента вне которого клик
-            if (!div.is(e.target) && div.has(e.target).length === 0) {
+            if (!div.is(e.target) && div.has(e.target).length === 0 && div.hasClass('show')) {
                 div.removeClass('show');
+                $('.overlay').removeClass('overlay-show');
                 $('body').removeClass('scroll-locked')
             }
         });

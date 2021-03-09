@@ -171,17 +171,7 @@
 <section id="profile-block">
     <div class="profile-bg">
         <div class="container">
-            <div class="profile-bg-block">
-                <a class="profile-bg-change" href="#">
-                    <img src="img/icon/bg-change.svg">
-                    <p>Фонды өзгерту <span>(50b.)</span></p>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div id="profile-body">
-        <div class="container">
-            <div class="profile-body">
+            <div class="profile-bg-content">
                 <div class="user">
                     <div class="user-img">
                         <img src="img/content/user-ava.png">
@@ -197,24 +187,27 @@
                             <img src="img/icon/user-dash.svg">
                         </span>
                             <div class="user-id">
-                                <img src="img/b-yellow.svg">
+                                <img src="img/icon/b-gray.svg">
                                 <p>661221</p>
                             </div>
+                        </div>
+                        <div class="user-info-text">
+                            <p>Описание профиля в 50 символов, стандартно его не будет. Только после заполнения.</p>
                         </div>
                     </div>
                 </div>
                 <div class="profile-body-btn">
                     <a class="profile-change-btn" href="#">
+                        <img src="img/icon/setting.svg">
                         <p>Профильді өзгерту</p>
-                        <img src="img/icon/setting.svg">
                     </a>
-                    <a class="pwd-change" href="#">
-                        <p>Құпия сөзді өзгерту</p>
-                        <img src="img/icon/setting.svg">
+                    <a class="profile-bg-change" href="#">
+                        <img src="img/icon/bg-change.svg">
+                        <p>Фонды өзгерту <span>(50b.)</span></p>
                     </a>
                     <a class="profile-logout" href="#">
-                        <p>Шығу</p>
                         <img src="img/icon/logout.svg">
+                        <p>Профильден шығу</p>
                     </a>
                 </div>
             </div>
@@ -233,6 +226,33 @@
                     </button>
                     <input type="text" placeholder="Іздеу">
                 </div>
+                <ul class="menu-social">
+                    <li>
+                        <a href="#">
+                            <i class="icon fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon fa-phone"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon fa-mail"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon fa-insta"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="icon fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
@@ -723,6 +743,10 @@
                         </div>
                     </div>
                     <div class="data-submit">
+                        <div class="change-user">
+                            <button class="change-user-btn active">Автор</button>
+                            <button class="change-user-btn">Компания</button>
+                        </div>
                         <a class="submit-btn" href="#">
                             <p>Сақтау</p>
                             <svg width="15" height="10" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
